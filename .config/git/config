@@ -1,0 +1,19 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Charly Delay
+	email = 0xcharly@codesink.dev
+[diff]
+  external = difft
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[core]
+  editor = nvim
+	excludesFile = ~/.gitignore
+  pager = delta
+[delta]
+  line-numbers = true
+  side-by-side = false
+  file-modified-label = modified:
+[interactive]
+  diffFilter = delta --color-only
